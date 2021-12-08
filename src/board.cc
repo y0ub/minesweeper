@@ -1,6 +1,6 @@
 #include "board.hpp"
 
-const bool Y0_DEBUG = true;
+const bool Y0_DEBUG = false; // true;
 
 Board::Board ()
 {

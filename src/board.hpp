@@ -41,12 +41,10 @@ class Board
     static constexpr std::string_view RETRY_SELECT_MESSAGE_  = "please input much number";
 
     static constexpr std::string_view COMMAND_LIST_ =
-      "w:up\n"
-      "s:down\n"
-      "a:left\n"
-      "d:right\n"
-      "f:flag\n"
-      "k:open\n";
+      "      ""w:up\n"
+      "a:left""      ""d:right\n"
+      "      ""s:down\n"
+      "f:flag""      ""k:open\n";
 
     static constexpr std::string_view LOSE_MESSAGE_  = "you lose";
     static constexpr std::string_view CLEAR_MESSAGE_ = "you win!!!!11!";
